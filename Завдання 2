@@ -6,7 +6,7 @@ namespace Lab4_завд2
     {
         static void Main(string[] args)
         {
-            //завдання 1 лаб 4
+            //завдання 2 лаб 4
             Console.Write("a=");
 
             int a = Convert.ToInt32(Console.ReadLine());
