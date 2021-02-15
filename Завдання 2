@@ -1,0 +1,29 @@
+using System;
+
+namespace Lab4_завд2
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            //завдання 1 лаб 4
+            Console.Write("a=");
+
+            int a = Convert.ToInt32(Console.ReadLine());
+
+            Console.Write("b=");
+
+            int b = Convert.ToInt32(Console.ReadLine());
+
+            Console.Write("c=");
+
+            int c = Convert.ToInt32(Console.ReadLine());
+
+            double d = Math.Max(a, b) + Math.Pow(Math.Min(b, c), 2);
+
+            Console.WriteLine("d={0}", d);
+
+
+        }
+    }
+}
