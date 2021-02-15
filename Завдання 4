@@ -1,0 +1,43 @@
+using System;
+
+namespace Lab4_завд4
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            //завдання 4 лаб 4
+            Console.Write("Input x=");
+
+            float x = float.Parse(Console.ReadLine());
+
+            int y;
+
+            if (x >= 0 & x<5)
+
+                y = 1;
+
+            else
+
+                if (x >= 5 & x<8)
+
+                y = 2;
+
+            else
+
+                if (x < 0)
+
+                y = 3;
+
+            else
+
+                if (x >= 8)
+
+                y = 4;
+
+            
+
+            Console.WriteLine("y= " + y);
+        }
+    }
+}
